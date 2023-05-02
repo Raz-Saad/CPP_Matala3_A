@@ -12,7 +12,7 @@ namespace ariel
 
     public:
         Fraction(int num1, int num2);
-        Fraction(double num);
+        Fraction(float num);
         int Get_Numerator();
         int Get_Denominator();
         void Set_Numerator(int num);

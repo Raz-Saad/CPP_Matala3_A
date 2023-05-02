@@ -11,7 +11,7 @@ Fraction::Fraction(int num1, int num2)
     Denominator = num2 / gcd;
 }
 
-Fraction::Fraction(double num) : Numerator(num * 1000), Denominator(1000)
+Fraction::Fraction(float num) : Numerator(num * 1000), Denominator(1000)
 {
     Reduce_fraction();
 }
